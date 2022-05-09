@@ -26,7 +26,7 @@ graph TD;
 ```mermaid
 classDiagram
     class CommandService
-    CommandService : +getAll
+    CommandService : +getAll()
     CommandService : +get(id)
     CommandService : +create(data)
     CommandService : +update(id, data)
