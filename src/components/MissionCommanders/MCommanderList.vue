@@ -85,10 +85,8 @@ export default {
   overflow-y: scroll;
 }
   .list{
-    /* background: #000; */
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-    /* height: auto; */
   }
 </style>

@@ -1,7 +1,6 @@
 <template>
 
-  <Header :message="Commander" />
-  <!-- <h4>Explorer</h4> -->
+  <Header />
   <div class="containerExplorer">
     <div v-if="currentCommander" class="edit-form">
     <form>
@@ -43,7 +42,6 @@ export default {
     data() {
         return {
             currentCommander: null,
-            message: ""
         };
     },
     methods: {

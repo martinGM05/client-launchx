@@ -1,7 +1,6 @@
 <template>
 
-  <Header :message="Explorers" />
-  <!-- <h4>Explorer</h4> -->
+  <Header />
   <div class="containerExplorer">
     <div v-if="currentExplorer" class="edit-form">
     <form>
@@ -30,7 +29,6 @@
     <button type="submit" class="btn btn-info mr-2" @click="updateExplorer">
       Actualizar
     </button>
-    <p>{{ message }}</p>
   </div>
   </div>
   <Footer />
@@ -44,7 +42,6 @@ export default {
     data() {
         return {
             currentExplorer: null,
-            message: ""
         };
     },
     methods: {
