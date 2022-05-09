@@ -1,24 +1,22 @@
-# vue-3-crud
+# Vue Client - CRUD whit this [server](https://github.com/martinGM05/PrismaDB)
 
-## Project setup
-```
-npm install
-```
+> This is the exercise from LaunchX of the week 5.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Some libraries were used in this project:
+- [Axios](https://www.npmjs.com/package/axios)
+- [Boostrap](https://getbootstrap.com/)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+If you want to download the project don't forget to run **`npm i`** to install the necessary dependencies
+If you want to run the project, just run **`npm run serve`**
 
-### Lints and fixes files
+## The logic distribution of this api is like this
+```mermaid
+graph TD;
+    CommandService --> CommandsComponents;
+    ExplorerService --> ExplorersComponents;
+    MCommanderService --> MissionCommandersComponents;
+    CommandsComponents --> Router;
+    ExplorersComponents --> Router;
+    MissionCommandersComponents --> Router;
+    Router --> App.vue;
 ```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
