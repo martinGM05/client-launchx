@@ -37,25 +37,25 @@ graph TD;
 If we go to Explorers, we had to go to **`ExplorersComponents.vue`** because it is the component that is responsible for the explorers.
 ```mermaid
 graph TD;
-    ExplorersComponents.vue --> AddExplorer.vue;
-    ExplorersComponents.vue --> ExplorersList.vue;
-    ExplorersComponents.vue --> Explorer.vue;
+    ExplorersComponents --> AddExplorer.vue;
+    ExplorersComponents --> ExplorersList.vue;
+    ExplorersComponents --> Explorer.vue;
 ```
 
 If we go to Commands, we had to go to **`CommandsComponents.vue`** because it is the component that is responsible for the commands.
 ```mermaid
 graph TD;
-    CommandsComponents.vue --> AddCommand.vue;
-    CommandsComponents.vue --> CommandsList.vue;
-    CommandsComponents.vue --> Command.vue;
+    CommandsComponents --> AddCommand.vue;
+    CommandsComponents --> CommandsList.vue;
+    CommandsComponents --> Command.vue;
 ```
 
 If we go to MissionCommanders, we had to go to **`MissionCommandersComponents.vue`** because it is the component that is responsible for the mission commanders.
 ```mermaid
 graph TD;
-    MissionCommandersComponents.vue --> AddMissionCommander.vue;
-    MissionCommandersComponents.vue --> MissionCommandersList.vue;
-    MissionCommandersComponents.vue --> MissionCommander.vue;
+    MissionCommandersComponents --> AddMissionCommander.vue;
+    MissionCommandersComponents --> MissionCommandersList.vue;
+    MissionCommandersComponents --> MissionCommander.vue;
 ```
 
 
