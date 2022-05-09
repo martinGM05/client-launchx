@@ -8,6 +8,7 @@ import AddCommander from './components/Commands/AddCommander'
 import Commander from './components/Commands/Commander'
 import MissionCommanderList from './components/MissionCommanders/MCommanderList'
 import MissionCommander from './components/MissionCommanders/MCommander'
+import AddMCommander from './components/MissionCommanders/AddMCommander'
 
 const routes =  [
   {
@@ -54,6 +55,11 @@ const routes =  [
     path: "/mission-commander/:id",
     name: "mission-commander-details",
     component: MissionCommander
+  },
+  {
+    path: "/add-mission-commander",
+    name: "add-mission-commander",
+    component: AddMCommander
   }
 ];
 const router = createRouter({

@@ -3,7 +3,10 @@
   <div class="container-list">
     <div class="list row">
       <div class="col-md-6">
-        <h4> Mission Commanders </h4>
+        <div class="containerTitle">
+          <h4> Missions Commanders </h4>
+          <router-link :to="'/add-mission-commander'" class="btn-plus"> Agregar Nuevo</router-link>
+        </div>
         <ul class="list-group">
           <li class="list-group-item"
             :class="{ active: index == currentIndex }"
