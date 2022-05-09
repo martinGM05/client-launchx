@@ -11,7 +11,7 @@ If you want to run the project, just run **`npm run serve`**
 
 ## The logic distribution of the project:
 ```mermaid
-graph TD;
+flowchart;
     Database --> Server --> Client --> Server --> Database;
 ```
 
