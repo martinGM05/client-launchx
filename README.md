@@ -24,9 +24,6 @@ graph TD;
 ##  What are the templates of the components?
 The templates are the html files that are used to create the components.
 
-## What are the components?
-The components are the files that are used to create the templates.
-
 ## What are the services?
 The services are the files that are used to create the logic of the project.
 
