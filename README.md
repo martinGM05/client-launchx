@@ -22,16 +22,16 @@ graph TD;
 ```
 
 ##  What are the templates of the components?
-> The templates are the html files that are used to create the components.
+The templates are the html files that are used to create the components.
 
 ## What are the components?
-> The components are the files that are used to create the templates.
+The components are the files that are used to create the templates.
 
 ## What are the services?
-> The services are the files that are used to create the logic of the project.
+The services are the files that are used to create the logic of the project.
 
 ## What are the routes?
-> The routes are the files that are used to create the routes of the project.
+The routes are the files that are used to create the routes of the project.
 
 ## Routes of the project
 The principal file is **`App.vue`**, where the router is.
