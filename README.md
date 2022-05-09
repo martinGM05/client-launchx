@@ -6,7 +6,7 @@
 - [Axios](https://www.npmjs.com/package/axios)
 - [Boostrap](https://getbootstrap.com/)
 
-If you want to download the project don't forget to run **`npm i`** to install the necessary dependencies
+If you want to download the project don't forget to run **`npm i`** to install the necessary dependencies.
 If you want to run the project, just run **`npm run serve`**
 
 ## The logic distribution of this api is like this
@@ -19,4 +19,16 @@ graph TD;
     ExplorersComponents --> Router;
     MissionCommandersComponents --> Router;
     Router --> App.vue;
+```
+
+## Services
+### CommandService
+```mermaid
+classDiagram
+    class CommandService
+    CommandService : +getAll
+    CommandService : +get(id)
+    CommandService : +create(data)
+    CommandService : +update(id, data)
+    CommandService : +delete(id)
 ```
