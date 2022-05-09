@@ -9,19 +9,13 @@
 If you want to download the project don't forget to run **`npm i`** to install the necessary dependencies.
 If you want to run the project, just run **`npm run serve`**
 
-## The logic distribution of this api is like this
+## The logic distribution of the project:
 ```mermaid
 graph TD;
-    Server --> CommandService;
-    Server --> ExplorerService;
-    Server --> MCommanderService;
-    CommandService --> CommandsComponents;
-    ExplorerService --> ExplorersComponents;
-    MCommanderService --> MissionCommandersComponents;
-    CommandsComponents --> Router;
-    ExplorersComponents --> Router;
-    MissionCommandersComponents --> Router;
-    Router --> App.vue;
+    Database --> Server;
+    Server --> Client;
+    Client --> Server;
+    Server --> Database;
 ```
 
 ##  What are the templates of the components?
