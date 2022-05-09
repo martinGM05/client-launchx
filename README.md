@@ -12,6 +12,9 @@ If you want to run the project, just run **`npm run serve`**
 ## The logic distribution of this api is like this
 ```mermaid
 graph TD;
+    Server --> CommandService;
+    Server --> ExplorerService;
+    Server --> MCommanderService;
     CommandService --> CommandsComponents;
     ExplorerService --> ExplorersComponents;
     MCommanderService --> MissionCommandersComponents;
